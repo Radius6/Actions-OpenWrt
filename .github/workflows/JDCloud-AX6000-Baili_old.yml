@@ -66,9 +66,11 @@ on:
 
 env:
   ###############手动修改##############
-  OPENWRT_NAME: hanwckf
-  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-24.10
+  REPO_NAME: immortalwrt
+  REPO_BRANCH: 2410
+  OpenWrt_VERSION: 24.10
+  OpenWrt_ARCH: mt7986
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: JDCloud-AX6000-Baili/.mtwifi-cfg.config
   DIY_P1_SH: JDCloud-AX6000-Baili/diy-part1.sh
