@@ -16,5 +16,4 @@
 # Add a feed source
 
 #git clone https://github.com/messense/aliyundrive-webdav package/messense
-git clone https://github.com/gdy666/luci-app-lucky package/lucky
-git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+
