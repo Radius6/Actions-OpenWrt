@@ -187,10 +187,7 @@ jobs:
         echo "- 使用源码：${{ env.REPO_URL }}" >> release.txt
         echo "- 使用分支：${{ env.REPO_BRANCH }}" >> release.txt
         echo "- 登录地址：${{ env.IP_ADDR }}" >> release.txt
-        if [[ "${{ env.BUILD_DOCKERMAN }}" == '-docker' ]]; then
-                echo "- 已编译luci-app-dockerman" >> release.txt
-        else
-                echo "- 未编译luci-app-dockerman" >> release.txt
+
         fi
         echo "release_tag=${{ env.FILE_DATE }}-${{ env.OPENWRT_NAME }}-${{ env.UPLOAD_TAG_NAME }}${{ env.BUILD_DOCKERMAN }}" >> $GITHUB_OUTPUT
         echo "status=success" >> $GITHUB_OUTPUT
