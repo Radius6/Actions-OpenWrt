@@ -97,7 +97,9 @@ jobs:
         cd openwrt
         ./scripts/feeds update -a
         ./scripts/feeds install -a
-
+        #passwall需要
+         rm -rf feeds/packages/lang/golang
+         git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
     - name: 加载config & DIY_P2_SH
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
