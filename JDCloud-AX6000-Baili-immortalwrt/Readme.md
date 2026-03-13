@@ -5,4 +5,5 @@ git clone https://github.com/padavanonly/immortalwrt-mt798x-6.6.git
 默认feeds.conf已经失效故使用官网的
 
 Github Ac­tions 教程https://p3terx.com/archives/build-openwrt-with-github-actions.html
+ 
 pass编译根据官方文档直接写入feeds.conf  在这里增加JDCloud-AX6000-Baili-immortalwrt.yml GOLONG版本否则编译不过
