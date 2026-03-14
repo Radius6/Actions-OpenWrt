@@ -24,3 +24,17 @@ http://IP管理地址/cgi-bin/luci/admin/services/passwall/show 比如我就进�
 恢复默认配置方法，地址栏输入例：http://IP管理地址/cgi-bin/luci/admin/services/passwall/reset_config
 隐藏菜单方法，地址栏输入例：http://IP管理地址/cgi-bin/luci/admin/services/passwall/hide
 当你隐藏后想再次显示，地址栏输入例：http://IP管理地址/cgi-bin/luci/admin/services/passwall/show
+
+geosite:category-ads-all 去广告
+
+xn--ngstr-lra8j.com 谷歌商店
+
+geosite:private 内网地址
+
+geosite:cn 国内域名
+
+geoip:private 内网IP
+
+geoip:cn 国内IP
+
+geosite:geolocation-!cn 国外域名
